@@ -12,10 +12,10 @@ namespace SeaWarsSite
     public partial class WebForm1 : System.Web.UI.Page
     {
         // Need to write the new dll directory to continue tests.
-        [DllImport("Dll_Wars.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+        [DllImport("../Dll_Wars.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
         public static extern IntPtr initController();
         // "C:/Users/Anton/source/repos/Dll_Wars/Debug/Dll_Wars.dll"
-        [DllImport("Dll_Wars.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+        [DllImport("../Dll_Wars.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
         public static extern int manageInput(StringBuilder dialogueBuffer, int length , IntPtr controller);
 
         StringBuilder stringB;
