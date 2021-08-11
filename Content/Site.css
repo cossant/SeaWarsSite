@@ -29,3 +29,13 @@ textarea {
         padding: 0;
     }
 }
+
+@font-face {
+    font-family: "Hermano Mayor";
+    src: url('../fonts/HermanoMayor.ttf');
+}
+
+.MyLabel
+{
+    font-family : 'Hermano Mayor', sans-serif;
+}

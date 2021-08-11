@@ -22,7 +22,7 @@ namespace SeaWarsSite
         
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = "Це морской бой, братишка. И я его таки докрутил.";
+            Label1.Text = "Це Морський бій, и я его таки докрутил.";
 
         }
 
