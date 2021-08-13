@@ -123,6 +123,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="pergament_back.jpg" />
+    <Content Include="sea_back.jpg" />
+    <Content Include="ship_ico.svg" />
     <Content Include="WebForm1.aspx" />
     <Content Include="fonts\Benguiat Normal.otf" />
     <Content Include="fonts\HermanoMayor.ttf" />

@@ -118,8 +118,7 @@ optgroup,
 select,
 textarea {
   color: inherit;
-  font: inherit;
-  margin: 0;
+  margin: 0 0 0 0px;
 }
 button {
   overflow: visible;
@@ -243,7 +242,8 @@ th {
   }
   .navbar {
     display: none;
-  }
+    background-color: #CCFF33;
+}
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
@@ -263,20 +263,17 @@ th {
     border: 1px solid #ddd !important;
   }
 }
-/*@font-face {
+@font-face {
   font-family: "Glyphicons Halflings";
   src: url("../fonts/glyphicons-halflings-regular.eot");
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
-}*/
-@font-face {
-    font-family: "Hermano Mayor";
-    src: url("../fonts/HermanoMayor.ttf");
 }
+
 .glyphicon {
     position: relative;
     top: 1px;
     display: inline-block;
-    font-family: "Hermano Mayor";
+    font-family: "Glyphicons Halflings";
     font-style: normal;
     font-weight: 400;
     line-height: 1;
@@ -1071,9 +1068,9 @@ th {
   content: "\e260";
 }
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 *:before,
 *:after {
@@ -1086,11 +1083,11 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Hermano Mayor", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333333;
-  background-color: #fff;
+    font-family: "Glyphicons Halflings", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #fff;
 }
 input,
 button,
@@ -1117,7 +1114,10 @@ figure {
   margin: 0;
 }
 img {
-  vertical-align: middle;
+    background: #000000;
+    vertical-align: middle;
+    background-image: url('../ship_ico.png');
+    background-repeat: no-repeat;
 }
 .img-responsive,
 .thumbnail > img,
@@ -5044,7 +5044,8 @@ a.badge:focus {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+    color: inherit;
+    text-align: left;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -6073,7 +6074,7 @@ button.close {
     position: absolute;
     z-index: 1070;
     display: block;
-    font-family: "Hermano Mayor", Helvetica, Arial, sans-serif;
+    font-family: "Glyphicons Halflings", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.42857143;
@@ -6191,7 +6192,7 @@ button.close {
     display: none;
     max-width: 276px;
     padding: 1px;
-    font-family: "Hermano Mayor", Helvetica, Arial, sans-serif;
+    font-family: "Glyphicons Halflings", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.42857143;

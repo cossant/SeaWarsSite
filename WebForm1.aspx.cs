@@ -22,7 +22,12 @@ namespace SeaWarsSite
         
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = "Це Морський бій, и я его таки докрутил.";
+            Label1.Text = "Це Морський бій, и сил моих больше нет.";
+            Label1.Style["align"] = "center";
+             
+            
+            //Label1.BackColor = System.Drawing.Color.Red;
+            //Label1.ForeColor = System.Drawing.Color.Blue;
 
         }
 
